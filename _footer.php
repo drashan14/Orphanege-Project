@@ -1,7 +1,16 @@
 <section style="margin-bottom:0px" width="1200px" style="height:250px" >
+<div class ="container"> <h2 color="red">Quiks Link</h2>
+<div class="center"> <ul type="none">
+    <li><a href="index1.php"> Home</li>
+    <li><a href="donor1.php"> Donor</li>
+    <li><a href="blog1.php">Blog</li>
+    <li><a href="contact1.php">Contact</li>
+    <li><a href="donate.php">Donate Now </li>
+</ul></div>
+</div>
 <div class="" style="margin-left:50px"><h2  style="color:blue" align="center"  >Samarthya</h2>
-    <n/><h6  align="center" style="color:dark" style="margi-top:10px">Samarthya is a development organisation committed to building just communities.</h6><n/><h6 align="center"  style="color:light-dark"><font color="light-black" > Email :-</font>maha.samarthya@gmail.com</h6>
-</n><h6  align="center" style="color:dark"><font color="blue" > Phone :-</font>+91 97653 63734, 70576 70030/h6>
+    <n/><h6  align="center" style="color:dark" style="margi-top:10px">Samarthya is a development organisation committed to building just communities.</h6><n/><h6 align="center"  style="color:light-dark"><font color="red"> Email :-</font>maha.samarthya@gmail.com</h6>
+</n><h6  align="center" style="color:dark"><font color="red" > Phone :-</font>+91 97653 63734, 70576 70030/h6>
 </div>
   <footer class="border-top" width="100%" style="background-color:black">
     
@@ -36,14 +45,7 @@
                               </span>
                           </a>
                       </li>
-                      <li class="list-inline-item">
-                          <a href="#!">
-                              <span class="fa-stack fa-lg">
-                                  <i class="fas fa-circle fa-stack-2x"></i>
-                                  <i class="fab fa-linkedin  fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </a>
-                      </li>
+                      
                       <li class="list-inline-item">
                           <a href="#!">
                               <span class="fa-stack fa-lg">

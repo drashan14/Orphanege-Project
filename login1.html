@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <title>Document</title>
+    <style rel="stylesheet" href="login1.css" type="text/css"></style>
+    <link href="login1.css" rel="stylesheet">
+    <script src="register1.js"></script>
+    
+</head>
+
+<body style="height:600px">
+ <?php 
+ include '_dbconnect.php';
+ if(isset($_POST['submit']))
+ {
+   
+    $username= mysqli_real_escape_string($conn ,$_POST['username'])
+    $email= mysqli_real_escape_string($conn ,$_POST['email'])
+    $password= mysqli_real_escape_string($conn ,$_POST['password'])
+    $cpassword= mysqli_real_escape_string($conn ,$_POST['cpassword'])
+     
+    $pass=password_hash($password,PASSWORD_BCRYPT);
+    $cpassword=password_hash($cpassword ,PASSWORD_BCRYPT);
+
+    $emailquery=""SELECT * FROM `login` WHERE  email '$email' AND password ='$password' ;
+    $query =mysqli_query($conn,$emailquery);
+
+    $emailcount=mysqli_num_rows($query);
+    if ($emailcount>0)
+    {
+        echo'<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+  </svg>
+  <div class="alert alert-success d-flex align-items-center" role="alert">
+  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+  <div>
+   Usernme already created...
+  </div>
+</div>'
+    }
+    else{
+        if($password == $cpassword)
+        {
+           
+            $insertquery= "INSERT INTO `login` (  `username`, `email`, `password`, `cpassword`, `dt`) VALUES ('$username', '$email','$hash', '$hash',current_timestamp())";
+            $result=mysqli_query($conn ,$insertquery);
+            if($result)
+            {
+                echo'<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+  </svg>
+  <div class="alert alert-success d-flex align-items-center" role="alert">
+  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+  <div>
+  Account is created succesfully...
+  </div>
+</div>'
+            }
+            else{
+                echo'<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+          </symbol>
+          </svg>
+          <div class="alert alert-success d-flex align-items-center" role="alert">
+          <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+          <div>
+           Account is not created..
+          </div>
+        </div>'
+            }
+
+        }
+        else{
+            echo'<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+  </svg>
+  <div class="alert alert-success d-flex align-items-center" role="alert">
+  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+  <div>
+   password do not matching..
+  </div>
+</div>'
+
+        }
+    }
+ }  
+?>
+<div class="main" >
+    <div class="center"  >
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="panel panel-login">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <a href="#" class="active" id="login-form-link">Login</a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a href="#" id="register-form-link">Register</a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                            <form action="login1.php" method="post"
+	role="form" style="display: none;">
+	<div class="form-group">
+		<input type="text" name="username" id="username" tabindex="1"
+			class="form-control" placeholder="Username" value="">
+	</div>
+	<div class="form-group">
+		<input type="email" name="email" id="email" tabindex="1" class="form-control"
+			placeholder="Email Address" value="">
+	</div>
+	<div class="form-group">
+		<input type="password" name="password" id="password" tabindex="2"
+			class="form-control" placeholder="Password">
+	</div>
+	<div class="form-group">
+		<input type="password" name="confirm-password" id="confirm-password"
+			tabindex="2" class="form-control" placeholder="Confirm Password">
+	</div>
+	<div class="form-group">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<input type="submit" name="register-submit" id="register-submit"
+					tabindex="4" class="form-control btn btn-register"
+					value="Register Now">
+			</div>
+		</div>
+	</div>
+</form>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div>
+</body>
+
+</html>

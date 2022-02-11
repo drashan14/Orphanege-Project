@@ -1,3 +1,4 @@
+
 <html lang="en">
 
 <head>
@@ -246,14 +247,7 @@
                               </span>
                           </a>
                       </li>
-                      <li class="list-inline-item">
-                          <a href="#!">
-                              <span class="fa-stack fa-lg">
-                                  <i class="fas fa-circle fa-stack-2x"></i>
-                                  <i class="icon-Linkedin fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </a>
-                      </li>
+                      
                       <li class="list-inline-item">
                           <a href="#!">
                               <span class="fa-stack fa-lg">

@@ -34,9 +34,16 @@
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="development1.php">
                             <font size="5px">development</font>
                         </a></li>    
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact1.php">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Award.php">
+                            <font size="5px">Awards</font>
+                        </a></li>
+                      <li  class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact1.php">
                             <font size="5px">Contact</font>
                         </a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact1.php">
+                            <font size="5px">Donate Now </font>
+                        </a></li>
+
 
                 </ul>
             </div>

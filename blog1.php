@@ -98,8 +98,8 @@
                 <h3 class="mb-0">A Culture of Gender Equality Grows</h3>
                 <div class="mb-1 text-muted"></div>
                 <a href="#">
-                  <h6 class="card-text mb-auto"> Partners understand the value of educating girls and work toward change
-                    within their schools, communities and at home.</h6>
+                  <h6 class="card-text mb-auto"><a href="# " style="text-decoration:none"> Partners understand the value of educating girls and work toward change
+                    within their schools, communities and at home.</a></h6>
                 </a>
 
                 
@@ -111,8 +111,8 @@
             <strong class="d-inline-block mb-2 text-success"></strong>
             <h3 class="mb-0">Getting Communities Invested in</h3>
             <div class="mb-1 text-muted"></div>
-            <p class="mb-auto" style="color:blue">We collaborate with local governments, schools, communities and
-              families to support girls to reach their full potential.</p>
+            <p class="mb-auto" style="color:blue"> <a href="# " style="text-decoration:none">We collaborate with local governments, schools, communities and
+              families to support girls to reach their full potential.</a></p>
             
         </div>
         <div class="col-auto d-none d-lg-block">
@@ -129,8 +129,8 @@
           <strong class="d-inline-block mb-2 text-success"></strong>
           <h3 class="mb-0">Getting Communities Invested in</h3>
           <div class="mb-1 text-muted"></div>
-          <p class="mb-auto" style="color:black">We collaborate with local governments, schools, communities and families
-            to support girls to reach their full potential.</p>
+          <p class="mb-auto" style="color:black"> <a href="# " style="text-decoration:none">We collaborate with local governments, schools, communities and families
+            to support girls to reach their full potential.</a></p>
          
         </div>
         <div class="col-auto d-none d-lg-block">
@@ -144,9 +144,9 @@
     <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark" style="background-image:url(img6.jpg)">
       <div class="col-md-6 px-0">
         <h1 class="display-4 fst-italic">Building Sustainable Relationships</h1>
-        <p class="lead my-3" style="color:yellow">We collaborate with local governments, schools, communities and
+        <p class="lead my-3" style="color:yellow">     <a href="# " style="text-decoration:none">We collaborate with local governments, schools, communities and
           families to ensure they understand the importance of literacy and how they can play a role in enabling
-          students to achieve their full potential.</p>
+          students to achieve their full potential.</a></p>
         <p class="lead mb-0"><a href="#" class="text-white fw-bold">
             
           </a></p>
@@ -160,10 +160,11 @@
             <strong class="d-inline-block mb-2 text-primary"></strong>
             <h3 class="mb-0">Relationships Create Generational Change</h3>
             <div class="mb-1 text-muted"></div>
-            <p class="card-text mb-auto">Parents, schools and government partners create a supportive environment for
+            <p class="card-text mb-auto"> <a href="#" style="text-decoration:none">Parents, schools and government partners create a supportive environment for
               reading both at home and in school.Our organisetion agency it has providing teh no of books wich is
-              helpfull for the children and providing teh basic chart. </p>
-            <a href="#" class="stretched-link">Continue reading</a>
+              helpfull for the children and providing teh basic chart.</a> </p>
+  
+              
           </div>
           <div class="col-auto d-none d-lg-block">
             <img src="samarthya2.jpg" width="500" height="500">
@@ -177,13 +178,13 @@
             <strong class="d-inline-block mb-2 text-success"></strong>
             <h3 class="mb-0">Litracy and Education</h3>
             <div class="mb-1 text-muted"></div>
-            <p class="mb-auto">The World Change Challenge
+            <p class="mb-auto">     <a href="# " style="text-decoration:none">The World Change Challenge
               Many world problems can be addressed through one solution: education. Why? Because knowing how to read
               makes people safer, healthier and more self-sufficient — yet over 750 million people are illiterate and
               two thirds are women and girls. That’s why Room to Read’s innovative model focuses on deep, systemic
               transformation within schools in low-income countries during the two most critical time periods in a
               child’s schooling: early primary school for literacy acquisition and secondary school for girls’
-              education.</p>
+              education.</a></p>
            
           </div>
           <div class="col-auto d-none d-lg-block">
@@ -207,12 +208,13 @@
                 <img src="samarthya8.jpg" height="350px">
                 <div class="card-body">
                   <p class="card-text">
-                    <font style="vertical-align: inherit;">
+                  <a href="# " style="text-decoration:none">  <font style="vertical-align: inherit;">
                       <font style="vertical-align: inherit;">we are privoide the school dress and taking the addmition
                         without the any fees and providing the all the things wich has related with the education .
                       </font>
                       <font style="vertical-align: inherit;">.</font>
                     </font>
+                          </a>
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
 
@@ -232,13 +234,14 @@
 
                 <div class="card-body">
                   <p class="card-text">
-                    <font style="vertical-align: inherit;">
+                  <a href="# " style="text-decoration:none">
+                   <font style="vertical-align: inherit;">
                       <font style="vertical-align: inherit;">We had been taking the exam of all childeren wich are the
                         learning below than teh 5th standered by providing the one teacher for one subject without no
                         fees .In this test we had been taking the basic problems wich are used in thier the daily
                         communication. </font>
                       <font style="vertical-align: inherit;">This content is a little longer.</font>
-                    </font>
+                    </font></a>
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
 
@@ -257,12 +260,13 @@
 
                 <div class="card-body">
                   <p class="card-text">
-                    <font style="vertical-align: inherit;">
+                  <a href="# " style="text-decoration:none">
+                   <font style="vertical-align: inherit;">
                       <font style="vertical-align: inherit;">we had been solving all the problems by taking one student
                         at one time .we are communicated with student as a friendly by the using teh some instrument or
                         on the blackboard. </font>
                       <font style="vertical-align: inherit;">This content is a little longer.</font>
-                    </font>
+                    </font></a>
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
 
@@ -281,11 +285,11 @@
                 <img src="samarthya6.jpg" height="350px">
                 <div class="card-body">
                   <p class="card-text">
-                    <font style="vertical-align: inherit;">
+                  <a href="# " style="text-decoration:none"><font style="vertical-align: inherit;">
                       <font style="vertical-align: inherit;">It has taken the all the game all the event in wich the
                         children has taking teh knowiedge and developed thier skill in this game. </font>
                       <font style="vertical-align: inherit;">This content is a little longer.</font>
-                    </font>
+                    </font></a>
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
 
@@ -299,12 +303,12 @@
                 <img src="samarthya12.jpg" height="300px">
                 <div class="card-body">
                   <p class="card-text">
-                    <font style="vertical-align: inherit;">
+                   <a href="# " style="text-decoration:none"> <font style="vertical-align: inherit;">
                       <font style="vertical-align: inherit;">In avery evening 2 hours we has taking the games ,events or
                         some other programmes wich helpful for the children ,and we has choose the best of best game for
                         children for that the childern something taken knowledge . </font>
                       <font style="vertical-align: inherit;">This content is a little longer.</font>
-                    </font>
+                    </font></a>
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
 
@@ -322,11 +326,11 @@
                 <img src="samarthya13.jpg" height="400px">
                 <div class="card-body">
                   <p class="card-text">
-                    <font style="vertical-align: inherit;"> For the exam we has been provinding the books ,pens and all
+                  <a href="# " style="text-decoration:none"> <font style="vertical-align: inherit;"> For the exam we has been provinding the books ,pens and all
                       the things wich are use in the exam . This exam has been arranging in the open source.<font
                         style="vertical-align: inherit;"></font>
                       <font style="vertical-align: inherit;"></font>
-                    </font>
+                    </font></a>
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
 

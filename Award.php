@@ -1,9 +1,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="description" content="" />
     <meta name="author" content="" />
     <title>An Assist for orphans</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -74,33 +73,73 @@
                 </div>
             </div>
         </div>
+  
     </header>
-    <section>
-        <div class="center" style="margin-left:100px">
-            <h2 style="color:red">Saksham Shikshan: Accessing to Quality Education</h2>
-            <p>
-            Poverty, seasonal migration, rigid patriarchal structure, parental apathy, domestic insecurity, unattractive format of education, societal ridicule, discrimination in schools and community dialect are hindrances in the spread of education among marginalised especially DNTs communities  which hampers the level of learning among children poses a great challenge.   </p>
-           <p>Access to quality education can change a child’s life, specially for children from marginalized communities. It can be the light that they need to change the direction of their life, it can be the hope they need to understand that there are better days ahead…
+    <div style="margin:0px" class="alert alert-success" role="alert">
+ <h1 align="center" >OUR AWARDS</h1>
+ </div>
+ <div class="center"><p align="center">Through the years, Samarthya's work has been recognised by  several individuals and organisations.<br/> We are thankful for their faith and belief in our abilities by giving us such an honour.<br/> It encourages us and instils a sense of belief that we are on the right path whilst<br/> reminding us of the great responsibility we carry toward the marginalised</p>
+</div>
+</div>
+<!-- The main te content -->
+<main  >
 
-​</p>
-<p>
-An environment that promotes education, in school and at homes, plays a crucial role in helping the child become interested in going to school, receiving education and ultimately becoming empowered and independent. We work with children at two levels – Inside the school and outside the school, and build our strategies accordingly.           </p>
-    <ul><h4 style="color:red">Interventions</h4>
-    <li>Organise training programmes and campaigns on RTE. </li>
-    <li>Promote enrollment  of girl child into primary school. </li>
-    <li>Facilitate learning through support and remedial classes.</li>
-    <li>Prepare ICE material bridging gap between dialect and standard  language. </li>
-    <li>Build capacities of members of SMCs to ensure better quality of education.</li>
-    <li>Help children express through various events such as Baal Melava, Baal Panchayat, Educational Picnics etc. </li>
-    <li>Undertake studies and research on education to understand the current condition.</li>
-    
-                    </ul>
+
+  <div class="album  bg-light"  >
+    <div class="container" >
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4" style="margin-left:300px">
+        <div class="col">
+          <div class="card shadow-sm">
+           
+            <div class="card-body" style="background-color:pink">
+                <h3>Youth Awards</h3>
+      <p class="card-text"><a href="#" style="text-decoration:none">Udhavarao Petkar Yuva Award received from Ms. Sumitra Bang in 2007.,</a></p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
         </div>
-                    </section>
-                    <div class="center">
-                        <img style="margin-left:150px" src="samarthya14.png" alt="">
-                    </div>
+                  
+        <div class="col" >
+          <div class="card shadow-sm">
+            
+            <div class="card-body" style="background-color:yellow">
+            <h3>Jeevan Gourav</h3>
+              <p class="card-text"><a href="#" style="text-decoration:none">‘Jeevan Gaourav Puaraskar’ from Maharashtra Maali Sangh, Amaravati in 2007.</a></p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+                    
+        <div class="col" >
+          <div class="card shadow-sm">
+            
+            <div class="card-body" style="background-color:skyblue">
+             <h3>Jijau Gourav</h3>
+              <p class="card-text" ><a href="#" style="text-decoration:none">‘Jijau Gaurav Puraskar’ by Jijau Brigade, Umagra in 2018.</a></p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+            </div>
+          </div>
+        </div>
+        
+
+
+        
+  </div>
+  </table>
+
+</main>
+        
+<div class="center" style="margin-top:80px">
     <?php require "_footer.php" ?>
+    </div>
     <!--demo content-->
 </body>
 </html>

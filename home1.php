@@ -1,4 +1,6 @@
 
+
+
 <html lang="en">
 
 <head>
@@ -65,10 +67,11 @@
             <li class="item"><a href="#home">HOME</a></li>
             <li class="item"><a href="#services-container">SERVICES</a></li>
             <li class="item"><a href="#about">ABOUT US</a></li>
-            <li class="item"><a href="#appreciation-container">APPRECIATION</a></li>
-            <li class="item"><a href="index1.php">DOMAIN</a></li>
+            <li class="item"><a href="#appreciation-container" >APPRECIATION</a></li>
+            <li class="item"><a href="login1.php">login</a></li>
+            <li class="item"><a href="signup1.php">signup</a></li>
             
-             <li class="item"><a href="https://checkout.razorpay.com/v1/payment-button.js">DONATE NOW</a> </li> 
+            
         </ul>
     </nav>
     <section id="home">
@@ -161,8 +164,8 @@ Learn more about how programs have been adapted to continue serving our children
     <hr>
 
     <section id="about">
-        <h1 class="h-primary center"> ABOUT US</h1>
-        <h3>OUR TEAM</h3>
+        <h1 class="h-primary center"> ABOUT ME</h1>
+        <h3></h3>
         <div class="team">
             <div class="team" id="member" >
                 <img src="" alt="">
@@ -227,7 +230,7 @@ Learn more about how programs have been adapted to continue serving our children
                 </p>
             </div>
             <div class="container">
-                <img src="" alt="">
+                <img src="govindsir.jpeg" alt="">
                 <!-- <h2 class="h-secondary center">Where Do The Funds Go?</h2> -->
                 <p class="center">
                     As your class instructor, I'd want to congratulate you everyone on all of your hard work on the
@@ -307,14 +310,7 @@ Learn more about how programs have been adapted to continue serving our children
                               </span>
                           </a>
                       </li>
-                      <li class="list-inline-item">
-                          <a href="#!">
-                              <span class="fa-stack fa-lg">
-                                  <i class="fas fa-circle fa-stack-2x"></i>
-                                  <i class="fab fa-linkedin  fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </a>
-                      </li>
+                      
                       <li class="list-inline-item">
                           <a href="#!">
                               <span class="fa-stack fa-lg">

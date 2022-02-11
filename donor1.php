@@ -247,9 +247,6 @@
                         <hr class="my-4" />
                         <!-- Post preview-->
                        
-                        <!-- Divider-->
-                        <hr class="my-4" />
-                        <!-- Pager-->
                         <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase"
                                 href="www.mahasamarthya.org">Visit website→</a></div>
                     </div>
@@ -294,14 +291,7 @@
                               </span>
                           </a>
                       </li>
-                      <li class="list-inline-item">
-                          <a href="#!">
-                              <span class="fa-stack fa-lg">
-                                  <i class="fas fa-circle fa-stack-2x"></i>
-                                  <i class="icon-Linkedin fa-stack-1x fa-inverse"></i>
-                              </span>
-                          </a>
-                      </li>
+                     
                       <li class="list-inline-item">
                           <a href="#!">
                               <span class="fa-stack fa-lg">
